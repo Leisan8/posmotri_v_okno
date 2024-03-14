@@ -52,6 +52,7 @@ ol {
   display: flex;
   justify-content: flex-start;
   gap: 30px;
+  margin-top: 15px;
 }
 
 .result {
@@ -65,6 +66,11 @@ ol {
  height: 100%;
 }
 
+.result__video-container {
+  position: relative;
+  margin-top: 77px;
+}
+
 .result__video {
   object-fit: cover;
   width: 100%;
@@ -72,9 +78,13 @@ ol {
 }
 
 .content__list {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 399px;
   height: 298px;
-  gap: 30px;
+  margin-top: 30px;
   overflow-y: auto;
 }
 
@@ -84,13 +94,95 @@ ol {
   padding: 2;
 }
 
-.content__video-card-thumbnail {
+.content__card-link {
   width: 194px;
-  height: 103px;  
+  height: 103px;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__video-card-thumbnail {
   object-fit: cover;
+  width: 194px;
+  height: 103px;
+}
+
+.search-form__fieldset-title {
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+.title {
+  font-family: Oswald;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
 }
 
 .content__card-link {
-  /* flex-direction: column;
-  display: flex; */
+  text-decoration: none;
+  color: inherit;
+}
+
+.content__video-card-title {
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content__video-card-description {
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+.button {
+  border: 1px solid #FFFFFF;
+  align-self: flex-end;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: inherit;
+  height: 34px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+}
+
+.more-button {
+  width: 100%;
 }
