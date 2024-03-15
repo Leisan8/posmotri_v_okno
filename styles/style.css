@@ -239,3 +239,20 @@ ol {
   padding-top: 12px;
 }
 
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+}
+
+.search-form__pseudo-checkbox {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 1px;
+  vertical-align: middle;
+  background-color: inherit;
+  border: 1px solid;
+  border-color: #FFFFFF;
+}
+
