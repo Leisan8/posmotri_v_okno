@@ -95,7 +95,6 @@ ol {
 .content__list-item {
   width: 398px;
   height: 107px;
-  padding: 2;
 }
 
 .content__card-link {
@@ -106,6 +105,7 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
+  margin: 2px;
 }
 
 .content__video-card-thumbnail {
@@ -256,3 +256,51 @@ ol {
   border-color: #FFFFFF;
 }
 
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #FFFFFF;
+}
+
+*:focus:not(:active) {
+  outline: 1px solid #FFFFFF;
+}
+
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.content__video-card:active {
+  background-color: #545050;
+  outline: none;
+}
+
+.search-form__label:hover, button:hover, .content__card-link:hover {
+  text-decoration: underline;
+}
+
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  position: relative;
+  content: "";
+  display: block;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px; 
+  background-color: #FFFFFF; 
+}
+
+.search-form__checkbox:active + .search-form__pseudo-checkbox::before {
+  position: relative;
+  content: "";
+  display: block;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px; 
+  background-color: #FFFFFF; 
+}
