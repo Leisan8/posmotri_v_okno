@@ -44,7 +44,6 @@ ol {
   display: flex;
   /* align-items: flex-end; */
   width: 1140px;
-  height: 535px;
   gap: 30px;
 }
 
@@ -58,7 +57,6 @@ ol {
 
 .result {
   width: 711px;
-  height: 456px;
   gap: 16px;
 }
 
