@@ -86,7 +86,7 @@ ol {
   height: 298px;
   margin-top: 30px;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .content__list-item {
@@ -187,7 +187,7 @@ ol {
   position: absolute;
   inline-size: 1px;
   block-size: 1px;
-  overflow: hidden;
+  overflow: auto;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
