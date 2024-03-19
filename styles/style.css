@@ -209,6 +209,7 @@ ol {
 
 .search-form__label {
   display: inline-block;
+  align-items: center;
   width: fit-content;
   cursor: pointer;
 }
@@ -275,6 +276,7 @@ ol {
 button:hover,
 .content__card-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
