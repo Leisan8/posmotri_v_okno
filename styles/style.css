@@ -254,16 +254,12 @@ ol {
   outline: 1px solid #fff;
 }
 
-*:focus:not(:active) {
-  outline: 1px solid #fff;
-}
-
 .button:active {
   background-color: #545050;
 }
 
 .button:focus {
-  outline: none;
+  outline: 1px solid #fff;
 }
 
 .content__video-card:active {
