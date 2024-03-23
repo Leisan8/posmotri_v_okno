@@ -98,6 +98,8 @@ ol {
   display: flex;
   justify-content: space-between;
   margin: 2px;
+  background-color: inherit;
+  padding: 1px;
 }
 
 .content__video-card-thumbnail {
@@ -267,11 +269,14 @@ ol {
   outline: none;
 }
 
-.search-form__label:hover,
 button:hover,
 .content__card-link:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.search-form__label:hover > .search-form__label-text {
+  text-decoration: underline;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
@@ -294,4 +299,8 @@ button:hover,
   width: 13px;
   height: 13px;
   background-color: #fff;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
