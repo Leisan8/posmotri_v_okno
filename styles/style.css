@@ -139,6 +139,14 @@ ol {
   color: inherit;
 }
 
+.content__video-car:focus {
+  outline: none;
+}
+
+.content__video-card:focus-visible {
+  outline: 1px solid #FFFFFF;
+}
+
 .content__video-card-title {
   text-transform: uppercase;
   font-family: Oswald, Arial, sans-serif;
@@ -154,7 +162,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: "Fira Sans" Condensed;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16px;
@@ -171,7 +179,7 @@ ol {
 .button {
   border: 1px solid #fff;
   align-self: flex-end;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -209,10 +217,12 @@ ol {
 }
 
 .search-form__label {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   width: fit-content;
   cursor: pointer;
+  gap: 3px;
 }
 
 .search-form__textfield {
